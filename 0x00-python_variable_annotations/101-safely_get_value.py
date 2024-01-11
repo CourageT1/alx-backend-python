@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-""" adding type annotations to the function"""
+""" adding type annotations to the function
+def safely_get_value(dct, key, default = None):
+    if key in dct:
+        return dct[key]
+    else:
+        return default"""
 from typing import TypeVar, Mapping, Any, Union, Optional
 
 
