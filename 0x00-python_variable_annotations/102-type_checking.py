@@ -9,6 +9,7 @@ by creating an array and zooming it in by a factor of 2 and 3.
 """
 from typing import Tuple, List
 
+
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Zooms in on the elements of the input Tuple.
