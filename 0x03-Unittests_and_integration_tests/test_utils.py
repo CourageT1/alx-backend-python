@@ -6,7 +6,7 @@ Test module for utils.memoize decorator.
 
 import unittest
 from unittest.mock import patch, Mock
-from utils import memoize
+from utils import memoize, access_nested_map
 
 
 class TestMemoize(unittest.TestCase):
